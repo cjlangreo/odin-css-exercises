@@ -1,1 +1,20 @@
-/* Add CSS Styling */
+.pinkClass {
+	background-color: #FDA7A8;
+	font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+#blueID {
+	color: #0000FF;
+	font-size: 36px;
+}
+
+.cool {
+	font-size: 24px;
+}
+
+#greenID {
+	background-color: #87FF87;
+	font-size: 24px;
+	font-weight: bold;
+}
+
