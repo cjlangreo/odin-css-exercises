@@ -15,18 +15,13 @@ body {
   color: white;
 
   /* Solution */
-  font-weight: bold;
-  font-size: 48px;
   display: flex;
-  padding: 2px 4px;
+  align-items: center;
+  padding: 0 16px;
+  font-size: 32px;
+  font-weight: 900;
 }
 
-.header > h1 {
-  font-size: 34px;
-  color: white;
-  align-self: center;
-  margin: 0;
-}
 
 .footer {
   height: 72px;
@@ -46,6 +41,7 @@ body {
 
   /* Solution */
   padding: 8px;
+  flex-shrink: 0;
 }
 
 .card {
@@ -62,7 +58,7 @@ body {
 /* Solution */
 .body-container {
   display: flex;
-  flex: 1 0 auto;
+  flex: 1;
 }
 
 a {
@@ -80,9 +76,11 @@ ul {
 
 .card-container {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   padding: 36px;
-  width: 100%;
   gap: 16px;
+}
+
+li {
+  margin-bottom: 16px;
 }
